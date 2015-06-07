@@ -14,7 +14,19 @@
 
 <body>
 
-<%= yield %>
 
+	<div id="content" class="container">
+    	<header id="content-header">
+       	 	<div id="price-container">
+          		<span class="glyphicon glyphicon-tag"></span><span class="price">$4.99</span>
+       	 	</div>
+        	<%= image_tag('kidonboard.jpg', id: 'content-header-img', alt: 'ATFY Quick Payment') %>
+    	</header>
+
+<%= yield %>
+  
+
+
+  </div>
 </body>
 </html>
