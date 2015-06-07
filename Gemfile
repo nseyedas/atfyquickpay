@@ -23,6 +23,11 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 
 
+#add figaro gem
+gem 'figaro'
+
+
+
 
 
 # Use SCSS for stylesheets
