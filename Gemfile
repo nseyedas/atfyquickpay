@@ -26,6 +26,12 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 #add figaro gem
 gem 'figaro'
 
+# add activeAdmin to generate an admin interace
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+# add device to support login for activeAdmin
+gem 'devise'
+
 
 
 
